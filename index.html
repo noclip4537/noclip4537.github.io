@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Historias</title>
+</head>
+<body>
+    <section>
+        <form action="/" id="formulario" class="formhistoria">
+            <h3>Nome do Protagonista</h3>
+            <input type="text" id="nomeprotagonista" required="required">
+            <h3>Selecione o monstro</h3>
+            <select name="monsters" id="monstros">
+                <option>Zumbis</option>
+                <option>Orcs</option>
+                <option>Vampiros</option>
+                <option>Lobisomens</option>
+                <option>Golems</option>
+                <option>Fénix</option>
+                <option>Minotauros</option>
+                <option>Ogros</option>
+            </select>
+            <h3>Selecione o tipo do protagonista</h3>
+            <select name="espprotagonist" id="espprotagonista">
+                <option>Robo</option>
+                <option>Golfinho</option>
+                <option>Urso</option>
+                <option>Dinossauro</option>
+                <option>Programador</option>
+                <option>Computador</option>
+                <option>Jogador de minecraft</option>
+                <option>Traficante</option>
+                <option>Policial</option>
+            </select>
+            <h3>Selecione a arma</h3>
+            <select name="weapon" id="arma">
+                <option>Bola de fogo</option>
+                <option>Ak 47</option>
+                <option>Varinha Magica</option>
+                <option>Bola de neve</option>
+                <option>Granada</option>
+                <option>22 enferrujado</option>
+                <option>avaiana de pau</option>
+                <option>Madeira</option>
+                <option>Linha Chilena</option>
+            </select>
+            <h3>Selecione o local</h3>
+            <select name="placehistory" id="localhistoria">
+                <option>Narnia</option>
+                <option>Marte</option>
+                <option>Jundiai</option>
+                <option>Sao Camilo</option>
+                <option>Terminal Central</option>
+                <option>Programa do ratinho</option>
+                <option>Congresso em Brasilia</option>
+                <option>Outback</option>
+                <option>Casa do seu Ze</option>
+            </select>
+            <h3>Selecione o Acidente</h3>
+            <select name="accident" id="acidente">
+                <option>Terremoto</option>
+                <option>Meteoro</option>
+                <option>Acidente nuclear</option>
+                <option>Batida de Kart</option>
+                <option>Acidente de Aviao</option>
+                <option>Vento muito forte</option>
+                <option>Batida de trem</option>
+            </select>
+            <button type="submit" class="btniniciar">Iniciar Historia</button>
+        </form>
+    </section>
+    <section id="sechistoria" class="secaohistoria">
+        <p id="insertext"></p>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
